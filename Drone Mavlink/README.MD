@@ -89,3 +89,12 @@ if 'MISSION_HASH' in os.environ and len(os.environ['MISSION_HASH']) > 0:
 ```
 
 В противном случае пропускаем данный метод выгрузки мисси.
+
+* route_mutex.py
+
+
+
+```python
+from web3 import Web3
+import json, os
+```
